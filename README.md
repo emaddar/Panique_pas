@@ -1,7 +1,7 @@
 <H1 align = "center">
 Panique-pas
 <H2>
-<<<<<<< HEAD
+
 
 Panique-pas est une application ios. Cette application a pour but de repondre au challenge suivant : 
 
