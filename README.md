@@ -42,9 +42,3 @@ la situation.
 
 3. L’utilisateur en tirera une aide et des  connaissances pour le futur, et pourra  renseigner à son tour. 
 =======
-Panique-pas est une application `ios`. Cette application a pour but de repondre au challenge suivant : 
-
-# Challenge
-Comment informer la population en cas de crise sanitaire ?
-
->>>>>>> fc17e251cf6562b01f5c08094b7d555dd78cc9a2
