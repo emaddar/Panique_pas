@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FFF2BA928C9D67600154CE1 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF2BA828C9D67600154CE1 /* testApp.swift */; };
-		7FFF2BAB28C9D67600154CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF2BAA28C9D67600154CE1 /* ContentView.swift */; };
-		7FFF2BAD28C9D67700154CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFF2BAC28C9D67700154CE1 /* Assets.xcassets */; };
-		7FFF2BB028C9D67700154CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFF2BAF28C9D67700154CE1 /* Preview Assets.xcassets */; };
 		7FFF2BBA28C9D67800154CE1 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF2BB928C9D67800154CE1 /* testTests.swift */; };
 		7FFF2BC428C9D67800154CE1 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF2BC328C9D67800154CE1 /* testUITests.swift */; };
 		7FFF2BC628C9D67800154CE1 /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF2BC528C9D67800154CE1 /* testUITestsLaunchTests.swift */; };
@@ -35,10 +31,6 @@
 
 /* Begin PBXFileReference section */
 		7FFF2BA528C9D67600154CE1 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FFF2BA828C9D67600154CE1 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
-		7FFF2BAA28C9D67600154CE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7FFF2BAC28C9D67700154CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FFF2BAF28C9D67700154CE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FFF2BB528C9D67800154CE1 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFF2BB928C9D67800154CE1 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		7FFF2BBF28C9D67800154CE1 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +66,6 @@
 		7FFF2B9C28C9D67600154CE1 = {
 			isa = PBXGroup;
 			children = (
-				7FFF2BA728C9D67600154CE1 /* test */,
 				7FFF2BB828C9D67800154CE1 /* testTests */,
 				7FFF2BC228C9D67800154CE1 /* testUITests */,
 				7FFF2BA628C9D67600154CE1 /* Products */,
@@ -89,25 +80,6 @@
 				7FFF2BBF28C9D67800154CE1 /* testUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7FFF2BA728C9D67600154CE1 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				7FFF2BA828C9D67600154CE1 /* testApp.swift */,
-				7FFF2BAA28C9D67600154CE1 /* ContentView.swift */,
-				7FFF2BAC28C9D67700154CE1 /* Assets.xcassets */,
-				7FFF2BAE28C9D67700154CE1 /* Preview Content */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		7FFF2BAE28C9D67700154CE1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				7FFF2BAF28C9D67700154CE1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		7FFF2BB828C9D67800154CE1 /* testTests */ = {
@@ -231,8 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FFF2BB028C9D67700154CE1 /* Preview Assets.xcassets in Resources */,
-				7FFF2BAD28C9D67700154CE1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FFF2BAB28C9D67600154CE1 /* ContentView.swift in Sources */,
-				7FFF2BA928C9D67600154CE1 /* testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +436,6 @@
 		7FFF2BCD28C9D67800154CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -487,7 +454,6 @@
 		7FFF2BCE28C9D67800154CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -506,7 +472,6 @@
 		7FFF2BD028C9D67800154CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -523,7 +488,6 @@
 		7FFF2BD128C9D67800154CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
